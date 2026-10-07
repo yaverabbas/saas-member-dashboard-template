@@ -3,20 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Client Portal Starter</title>
-    <meta name="description" content="A reusable SaaS member dashboard template.">
+    <title>SaaS Member Dashboard Template</title>
+    <meta name="description" content="A reusable SaaS member dashboard template with usage, history, billing, team, extension, settings, and support screens.">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
     <div class="layout">
       <aside class="sidebar">
-        <a class="brand" href="#">Client Portal</a>
+        <a class="brand" href="#">SaaS Member</a>
         <nav aria-label="Member navigation">
           <a class="active" href="#">Overview</a>
           <a href="#">Create</a>
           <a href="#">History</a>
           <a href="#">Templates</a>
           <a href="#">Billing</a>
+          <a href="#">Team</a>
+          <a href="#">Extension</a>
           <a href="#">Settings</a>
         </nav>
       </aside>
@@ -73,6 +75,55 @@
               <label><input type="checkbox"> Invite team member</label>
             </div>
           </article>
+        </section>
+
+        <section class="feature-grid" aria-label="Member dashboard modules">
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Templates</h2>
+            </div>
+            <div class="chip-list">
+              <span>Starter brief</span>
+              <span>Client follow-up</span>
+              <span>Project recap</span>
+              <span>Saved response</span>
+            </div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Team</h2>
+            </div>
+            <p class="muted">Invite teammates, assign seats, and keep shared work organized with mock team controls.</p>
+            <button>Invite teammate</button>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Extension</h2>
+            </div>
+            <p class="muted">Show an install-ready add-on panel for browser workflows, onboarding notes, and quick links.</p>
+            <button>View install guide</button>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Settings</h2>
+            </div>
+            <div class="checklist">
+              <label><input type="checkbox" checked> Email updates</label>
+              <label><input type="checkbox" checked> Usage reminders</label>
+              <label><input type="checkbox"> Weekly summary</label>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="panel-header">
+            <h2>Support and feedback</h2>
+            <a href="#">Open ticket</a>
+          </div>
+          <p class="muted">A reusable support module for product feedback, bug reports, browser details, and account help.</p>
         </section>
       </main>
     </div>

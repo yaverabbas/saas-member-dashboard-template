@@ -153,6 +153,13 @@ button {
   gap: 16px;
 }
 
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 16px 0;
+}
+
 .panel-header {
   display: flex;
   justify-content: space-between;
@@ -216,6 +223,26 @@ a {
   gap: 10px;
 }
 
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip-list span {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 10px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.muted {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .checklist label {
   display: flex;
   gap: 8px;
@@ -226,7 +253,8 @@ a {
 @media (max-width: 860px) {
   .layout,
   .stats,
-  .grid {
+  .grid,
+  .feature-grid {
     grid-template-columns: 1fr;
   }
 
