@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Client Portal Starter</title>
+    <meta name="description" content="A reusable SaaS member dashboard template.">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <a class="brand" href="#">Client Portal</a>
+        <nav aria-label="Member navigation">
+          <a class="active" href="#">Overview</a>
+          <a href="#">Create</a>
+          <a href="#">History</a>
+          <a href="#">Templates</a>
+          <a href="#">Billing</a>
+          <a href="#">Settings</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <header class="page-header">
+          <div>
+            <p class="eyebrow">Member workspace</p>
+            <h1>Keep the next client deliverable moving.</h1>
+            <p>Track usage, recent work, and account readiness from one focused dashboard.</p>
+          </div>
+          <button>Create new</button>
+        </header>
+
+        <section class="stats" aria-label="Workspace stats">
+          <article>
+            <span>Monthly usage</span>
+            <strong>34 / 100</strong>
+            <div class="bar"><span style="width: 34%"></span></div>
+          </article>
+          <article>
+            <span>Profile readiness</span>
+            <strong>92%</strong>
+            <div class="bar"><span style="width: 92%"></span></div>
+          </article>
+          <article>
+            <span>Saved drafts</span>
+            <strong>18</strong>
+            <small>5 updated this week</small>
+          </article>
+        </section>
+
+        <section class="grid">
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Recent work</h2>
+              <a href="#">View all</a>
+            </div>
+            <ul class="work-list" id="workList"></ul>
+          </article>
+
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Account status</h2>
+            </div>
+            <div class="status-card">
+              <span class="badge">Pro plan</span>
+              <strong>Renews Nov 10</strong>
+              <p>Billing, limits, and saved work are shown with mock data so this template can be reused safely.</p>
+            </div>
+            <div class="checklist">
+              <label><input type="checkbox" checked> Profile complete</label>
+              <label><input type="checkbox" checked> Default preferences set</label>
+              <label><input type="checkbox"> Invite team member</label>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
