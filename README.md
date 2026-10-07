@@ -4,6 +4,10 @@ A public-ready **SaaS member dashboard template** for user-facing product portal
 
 This repository uses mock data only. It does not include production credentials, private users, payment keys, internal documents, or copied private Git history.
 
+## Preview
+
+![SaaS Member Dashboard Template desktop preview](screenshots/desktop-preview.jpg)
+
 ## Feature Coverage
 
 - SaaS member dashboard overview
