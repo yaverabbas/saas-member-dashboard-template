@@ -6,6 +6,8 @@ This repository uses mock data only. It does not include production credentials,
 
 ## Preview
 
+Live demo: [https://yaverabbas.github.io/saas-member-dashboard-template/](https://yaverabbas.github.io/saas-member-dashboard-template/)
+
 ![SaaS Member Dashboard Template desktop preview](screenshots/desktop-preview.jpg)
 
 ## Feature Coverage
