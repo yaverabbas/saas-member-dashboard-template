@@ -38,6 +38,29 @@ This repository uses mock data only. It does not include production credentials,
 - Settings mock
 - Support mock
 
+## Need a Custom Version?
+
+This template is a public demo for a SaaS member area. If you are building a real product, this can become a production-ready customer portal with authentication, billing, usage data, support, and account management.
+
+Custom build options can include:
+
+- User authentication and account settings
+- Real usage tracking
+- Billing and subscription integration
+- Saved work or document history
+- Team invites and permissions
+- Support ticket flow
+- Notification preferences
+- Product onboarding checklist
+- Admin controls for customer management
+
+If you are building a SaaS product, customer portal, internal tool, or MVP dashboard and want it to feel credible from day one, connect with me on LinkedIn: [Yaver Abbas](https://www.linkedin.com/in/yawarak/).
+
+## Related Open Source Templates
+
+- [Upwork Proposal Generator AI](https://github.com/yaverabbas/upwork-proposal-generator-ai)
+- [SaaS Admin Dashboard Template](https://github.com/yaverabbas/saas-admin-dashboard-template)
+
 ## Deployment Guide
 
 This template is static HTML, CSS, and JavaScript.
